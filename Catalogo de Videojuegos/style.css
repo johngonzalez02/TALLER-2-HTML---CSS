@@ -52,3 +52,30 @@ nav a:hover {
     color: var(--gv-accent);
     text-decoration: none;
 }
+
+.hero {
+    padding: 4rem 2rem 3rem;
+    max-width: 640px;
+}
+ 
+.hero h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+}
+ 
+.hero p {
+    color: var(--gv-muted);
+    margin-bottom: 1.5rem;
+}
+ 
+.hero a[role="button"] {
+    background: var(--gv-accent);
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
+ 
+.hero a[role="button"]:hover {
+    background: #1d4ed8;
+}
