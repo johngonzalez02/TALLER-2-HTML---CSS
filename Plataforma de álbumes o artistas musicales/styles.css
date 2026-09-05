@@ -1,0 +1,27 @@
+:root {
+    --vn-bg: #0d0d0d;
+    --vn-surface: #1a1414;
+    --vn-line: #2e2020;
+    --vn-text: #e8e0df;
+    --vn-muted: #a89a98;
+    --vn-heading: #e11d2e;
+    --vn-accent: #ff4757;
+    --vn-accent-light: rgba(255, 71, 87, 0.12);
+}
+ 
+html {
+    scroll-behavior: smooth;
+    background: var(--vn-bg);
+}
+ 
+body {
+    background: var(--vn-bg);
+    color: var(--vn-text);
+    font-family: 'Work Sans', sans-serif;
+}
+ 
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--vn-heading);
+}
