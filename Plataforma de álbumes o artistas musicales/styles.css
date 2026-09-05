@@ -82,3 +82,60 @@ nav a:hover {
 .hero a[role="button"]:hover {
     background: #ff6b78;
 }
+
+.grid-albumes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.75rem;
+}
+ 
+.tarjeta-album img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+ 
+.tarjeta-album h3 {
+    margin: 0.9rem 0 0.15rem;
+    font-size: 1.15rem;
+}
+ 
+.artista {
+    margin: 0;
+    color: var(--vn-accent);
+    font-size: 0.95rem;
+}
+ 
+.meta {
+    color: var(--vn-muted);
+    font-size: 0.85rem;
+    margin: 0.15rem 0 0;
+}
+ 
+/* ARTISTAS */
+ 
+.grid-artistas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1.5rem;
+}
+ 
+.tarjeta-artista {
+    text-align: center;
+}
+ 
+.tarjeta-artista img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 0.75rem;
+    border: 3px solid var(--vn-accent);
+}
+ 
+.tarjeta-artista h3 {
+    font-size: 1.05rem;
+    margin: 0 0 0.2rem;
+}
