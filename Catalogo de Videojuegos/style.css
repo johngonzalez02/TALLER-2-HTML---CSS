@@ -24,3 +24,31 @@ h1, h2, h3 {
     font-family: 'Space Grotesk', sans-serif;
     color: var(--gv-heading);
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.9rem 2rem;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--gv-line);
+}
+ 
+.logo {
+    color: var(--gv-heading);
+    letter-spacing: 0.01em;
+}
+ 
+nav a {
+    color: var(--gv-text);
+    border-radius: 6px;
+    padding: .4rem .8rem;
+    transition: .2s;
+}
+ 
+nav a:hover {
+    background: var(--gv-accent-light);
+    color: var(--gv-accent);
+    text-decoration: none;
+}
