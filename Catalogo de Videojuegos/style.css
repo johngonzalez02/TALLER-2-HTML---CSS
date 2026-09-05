@@ -79,3 +79,58 @@ nav a:hover {
 .hero a[role="button"]:hover {
     background: #1d4ed8;
 }
+
+.grid-juegos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+ 
+.tarjeta-juego {
+    background: var(--gv-surface);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--gv-line);
+    transition: transform .2s, border-color .2s, box-shadow .2s;
+}
+ 
+.tarjeta-juego:hover {
+    transform: translateY(-4px);
+    border-color: var(--gv-accent);
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.15);
+}
+ 
+.tarjeta-juego img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+ 
+.info-juego {
+    padding: 1rem 1.1rem 1.3rem;
+}
+ 
+.genero {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: var(--gv-accent);
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+ 
+.info-juego h3 {
+    margin: 0 0 0.2rem;
+    font-size: 1.1rem;
+}
+ 
+.meta {
+    color: var(--gv-muted);
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+}
+ 
+.rating {
+    color: var(--gv-accent);
+    margin: 0;
+}
