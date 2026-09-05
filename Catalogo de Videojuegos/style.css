@@ -134,3 +134,30 @@ nav a:hover {
     color: var(--gv-accent);
     margin: 0;
 }
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+ 
+.chip {
+    background: var(--gv-accent-light);
+    border: 1px solid var(--gv-line);
+    border-radius: 999px;
+    padding: 0.45rem 1rem;
+    font-size: 0.9rem;
+    color: var(--gv-heading);
+}
+ 
+/* FOOTER */
+ 
+footer {
+    margin-top: 3rem;
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--gv-line);
+    color: var(--gv-muted);
+}
+ 
