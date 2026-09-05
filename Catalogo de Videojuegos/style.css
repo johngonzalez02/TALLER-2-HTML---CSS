@@ -1,0 +1,26 @@
+:root {
+    --gv-bg: #ffffff;
+    --gv-surface: #f4f7fb;
+    --gv-line: #dbe4f0;
+    --gv-text: #202b3d;
+    --gv-muted: #64748b;
+    --gv-heading: #12305c;
+    --gv-accent: #2563eb;
+    --gv-accent-light: #eaf1fd;
+}
+ 
+html {
+    scroll-behavior: smooth;
+    background: var(--gv-bg);
+}
+ 
+body {
+    background: var(--gv-bg);
+    color: var(--gv-text);
+    font-family: 'Inter', sans-serif;
+}
+ 
+h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--gv-heading);
+}
