@@ -25,3 +25,31 @@ h1, h2, h3 {
     font-weight: 600;
     color: var(--vn-heading);
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.9rem 2rem;
+    background: rgba(13, 13, 13, 0.92);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--vn-line);
+}
+ 
+.logo {
+    color: var(--vn-heading);
+    font-family: 'Fraunces', serif;
+}
+ 
+nav a {
+    color: var(--vn-text);
+    border-radius: 6px;
+    padding: .4rem .8rem;
+    transition: .2s;
+}
+ 
+nav a:hover {
+    background: var(--vn-accent-light);
+    color: var(--vn-accent);
+    text-decoration: none;
+}
